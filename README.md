@@ -2,10 +2,8 @@
 
 I've created a simple, standalone shell script for updating both "openwrt" and "mtk-openwrt-feeds" repositories to keep the local repository up to date.
 
-How to Automate This Script
-To have this script run automatically every day, you can use a tool called cron, which is a standard scheduler on Linux systems.
-
 # **Setting Up**
+How to Automate this Script....
 
 Create a repo directory e.g.. /home/user/repo
 
