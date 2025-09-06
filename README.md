@@ -13,7 +13,7 @@ How to Automate this Script....
 
 4. Clone mtk-feeds - `git clone --branch master https://git01.mediatek.com/openwrt/feeds/mtk-openwrt-feeds`
 
-5. clone this repo and place the script inside your local repo
+5. clone this repo `git clone https://github.com/Gilly1970/Local-OpenWrt-MTK-Feeds-Repository-Update-Script.git` and place the script inside /home/user/repo
 
 6. Make the Script Executable - `chmod +x update_repos.sh`
 
