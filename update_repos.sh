@@ -4,9 +4,6 @@
 # ==================================================================================
 # This script is designed to be run automatically (e.g., via a cron job) to
 # keep local clones of the OpenWrt and Mediatek Feeds repositories up-to-date.
-# It navigates to each repository directory and runs 'git pull' to fetch and
-# merge the latest changes from their respective remote branches.
-#
 # ==================================================================================
 
 set -euo pipefail
@@ -54,5 +51,6 @@ update_repo "$MTK_FEEDS_REPO_PATH" "Mediatek Feeds"
 
 echo "Update process finished at $(date)."
 echo ""
+
 
 exit 0
