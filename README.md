@@ -1,6 +1,6 @@
 # Local-OpenWrt-MTK-Feeds-Repository-Update-Script
 
-I've created a simple, standalone shell script for updating a "openwrt" and "mtk-openwrt-feeds" locale repository to keep it up to date automatically.
+I've created a simple, standalone shell script for updating an "openwrt" and "mtk-openwrt-feeds" locale repository to keep it up to date automatically.
 
 # **Setting Up**
 How to Automate this Script....
