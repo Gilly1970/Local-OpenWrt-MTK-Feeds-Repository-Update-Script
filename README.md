@@ -1,4 +1,4 @@
-## How to Automate this Script
+# $$\color{blue}\large{\textbf{How\ to\ Automate\ this\ Script}}$$
 
 **Step 1:** Clone this Repo
 - Create a repo directory then inside the new directory clone this repo, openwrt and mtk-openwrt-feeds
