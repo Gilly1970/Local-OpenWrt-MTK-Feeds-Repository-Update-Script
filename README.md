@@ -50,11 +50,11 @@ crontab -e
 ```csharp
 0 3 * * * /home/gilly/user/update_repos.sh >> /home/user/repos/update.log 2>&1
 ```
+Save and close the file. The cron job is now active and will run automatically at the scheduled time.
+
 >[!IMPORTANT]
 >Replace `/path/to/your/update_repos.sh` with the actual, full path to where you saved the script.
 >The `>> /path/to/your/update.log 2>&1` part is optional but highly recommended. It will save the output of the script to a log file, so you can check if the updates were successful.
-
-Save and close the file. The cron job is now active and will run automatically at the scheduled time.
 
 > [!NOTE]
 > Updated script with better error handling
