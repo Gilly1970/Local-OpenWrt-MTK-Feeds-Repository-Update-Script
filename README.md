@@ -48,7 +48,7 @@ crontab -e
 **Step 5:** Add the Scheduled Job
 - Add the following line to the end of the file. This example will run the script every day at 3:00 AM.
 ```csharp
-0 3 * * * /home/gilly/user/update_repos.sh >> /home/user/repos/update.log 2>&1
+0 3 * * * /home/user/repos/update_repos.sh >> /home/user/repos/update.log 2>&1
 ```
 Save and close the file. The cron job is now active and will run automatically at the scheduled time.
 
