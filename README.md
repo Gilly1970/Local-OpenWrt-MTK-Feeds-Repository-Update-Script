@@ -21,9 +21,7 @@ Bash
 ```
 ```csharp
  --- Configuration ---
-readonly OPENWRT_REPO_PATH="/home/user/repo/openwrt"
-readonly MTK_FEEDS_REPO_PATH="/home/user/repo/mtk-openwrt-feeds"
-readonly LOG_FILE="/home/user/repo/repo_update.log"
+readonly REPO_BASE_DIR="/home/user/repo/openwrt"
 ```
 **Step 3:** Make the Script Executable
 - Script needs the correct permission to run.
